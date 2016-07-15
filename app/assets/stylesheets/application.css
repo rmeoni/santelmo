@@ -1,0 +1,385 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body, html {
+	font-family:"arvo", sans-serif;
+}
+
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  overflow: scroll;
+}
+
+body:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+
+}
+/*mobile only*/
+.mobile-logo {
+	display:none;
+}
+
+.icon-menu {
+	display:none;
+}
+
+.menu {
+  color:#fff;	
+  background-color: #FF80AB;
+  height: 100%;
+  position: fixed;
+  width: 280px;
+  left:-280px;
+  opacity: 0.98;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu li {
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-close i {
+	font-size: 35px;
+	color: #fff;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  background: transparent;
+  position: fixed;
+  z-index: 100;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*header*/
+.header {
+	text-align:center;
+	background:transparent;
+	position: absolute;
+}
+.nav ul {
+list-style-type: none;
+text-align: center;
+}
+
+.nav li {
+	text-decoration:none;
+	color:#fff;
+	font-size:14px;
+	padding:10px;
+	display:inline-block;
+	text-transform: uppercase;
+ 	-webkit-transition:color 0.25s;
+  	transition:color 0.25s;
+}
+
+.nav li a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.nav li a:hover{
+	background:transparent;
+	cursor:pointer;
+	transition: color .5s;
+	-webkit-transition:color 1s;
+	color:#91BE51;
+}
+
+/*jumbotron*/
+
+#home {
+	height:600px;
+	background-image:url("/images/inspiration.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	z-index: -1;
+}
+
+/*supporting*/
+.supporting {
+	height:300px;
+	background-color:#FF4081;
+	margin:0px;
+	text-align:center;
+	color:#fff;
+}
+
+.supporting h1 {
+	margin:0;
+	padding:40px 0px 10px;
+	font-size:80px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+
+}
+
+.supporting p {
+	padding-bottom:10px;
+	font-size:20px;
+}
+
+.btn {
+	border-radius:0px;
+	background-color:#fff;
+	color:#000;
+	border:2px solid #fff;
+	border-radius: 4px;
+	padding: 15px;
+	font-size: 18px;
+	transition: background-color .3s;
+
+}
+
+.btn a {
+	text-decoration:none;
+	color:#000;
+}
+
+.btn:hover, .btn:focus {
+	background-color:#FF80AB;
+	color:#fff;
+	border: 2px solid #fff;
+}
+
+/*feature*/
+.feature-1 {
+	height:600px;
+	background-image:url("/images/canoe.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.feature-1 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+}
+
+.feature-2 {
+	height:600px;
+	background-image:url("/images/sala.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.feature-2 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:right;
+}
+
+.feature-3 {
+	height:600px;
+	background-image:url("/images/roof.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.feature-3 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+}
+
+.feature-4 {
+	height:600px;
+	background-image:url("/images/sunset.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+.feature-4 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:right;
+}
+
+/*footer*/
+.footer {
+	background-color:#00897B;
+	height:300px;
+	color:#fff;
+	padding:30px;
+}
+
+.footer .material-icons {
+	font-size: 38px;
+	border: 2px solid #fff;
+	border-radius: 50%; 
+}
+
+#up {
+	text-align: center;
+}
+
+.footer .col-md-4 {
+	text-align: center;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left:0;
+}
+
+.footer li {
+	color:#fff;
+	display:inline;
+	padding:10px;
+}
+
+.footer li a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer li i:hover {
+	color:#FF4081;
+	border-color: #FF4081;
+}
+
+.footer h6 {
+	text-align:center;
+	color: #fff;
+	padding:35px;
+	font-size:14px;
+	text-decoration: none;
+}
+
+.footer h6 span {
+	border-bottom:1px solid #fff;
+	color: #fff;
+}
+
+}
+.footer h6 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+
+.header li {
+	display:none;
+}
+
+.icon-menu {
+	display:inline;
+	line-height:3px;
+}
+
+.mobile-logo {
+	display:inline;
+	position: center;
+	padding:1px;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+
+.supporting {
+	height: 300px;
+}
+
+.supporting h1 {
+	font-size: 2.5em;
+}
+
+.btn {
+	font-size: 1.1em;
+	padding: 10px;
+}
+
+.footer {
+	height:350px;
+}
+
+.footer h3 {
+	font-size:1.5em;
+}
+.footer p, .footer a {
+	font-size:12px;
+}
+
+.footer li {
+	display:inline-block;
+	padding:5px;
+	}
+}
