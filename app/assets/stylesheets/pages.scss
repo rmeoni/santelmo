@@ -1,3 +1,80 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* About CSS */
+/*jumbotron*/
+
+#about {
+	height:600px;
+	background-image:url("../Images/llantas.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+#bs-over #about h1 {
+  color:#fff;
+  font-size:80px;
+  text-transform: uppercase;
+  text-align:center;
+  margin-top:300px;
+}
+
+/*supporting*/
+
+#our-menu {
+  background-image: url("../images/pasta.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 40px;
+}
+
+#our-antiques {
+  background-image: url("../images/trompeta.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#our-inspiration {
+  background-image: url("../images/front.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#our-friends {
+  background-image: url("../images/friends.jpg");
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 40px;
+}
+
+.supporting .row {
+  padding:80px 40px 80px 40px;
+  border-bottom:1px solid #333333;
+}
+
+.img-thumbnail {
+  padding:10px;
+  border: 2px solid #000;
+}
+
+.supporting .col-md-7 p {
+  padding-bottom:20px;
+  font-size:16px;
+  color: #fff;
+  text-shadow:0 3px 4px rgba(0,0,0,.4);
+}
+
+.supporting .col-md-7 h1 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow:0 3px 4px rgba(0,0,0,.4);
+
+}
