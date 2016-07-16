@@ -38,6 +38,7 @@ body:before {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size: cover;
+	-webkit-backface-visibility: hidden;
 
 }
 /*mobile only*/
@@ -115,6 +116,7 @@ body:before {
 	text-align:center;
 	background:transparent;
 	position: absolute;
+	z-index: 1000;
 }
 .nav ul {
 list-style-type: none;
@@ -354,7 +356,7 @@ text-align: center;
 	display:inline;
 	position: center;
 	padding:1px;
-	margin-left: 50%;
+	margin-left: 50px;
 	margin-top: 20%;
 }
 
