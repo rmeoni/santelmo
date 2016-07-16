@@ -156,6 +156,7 @@ text-align: center;
 	background-repeat: no-repeat;
 	margin-bottom: 0;
 	z-index: -1;
+	-webkit-backface-visibility: hidden;
 }
 
 /*supporting*/
@@ -212,6 +213,7 @@ text-align: center;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
 }
 .feature-1 h1 {
 	padding:150px 0px 10px;
@@ -228,6 +230,7 @@ text-align: center;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
 }
 
 .feature-2 h1 {
@@ -245,6 +248,7 @@ text-align: center;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
 }
 
 .feature-3 h1 {
@@ -262,6 +266,7 @@ text-align: center;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
 
 }
 
