@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get '/gallery' => 'pictures#index'
   get '/gallery/:id' => 'pictures#show', as: :picture
   get '/menu' => 'menu_categories#index'
+  match '/contacts',     to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
   get "*missing" => redirect("/")
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

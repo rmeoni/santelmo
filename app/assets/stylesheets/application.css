@@ -381,7 +381,15 @@ text-align: center;
 	padding: 10px;
 }
 
+.jumbotron h1 {
+	font-size: 4.5em;
+}
+
 #gallery h1 {
+	font-size: 4.5em;
+}
+
+#contact h1 {
 	font-size: 4.5em;
 }
 

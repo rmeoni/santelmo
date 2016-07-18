@@ -8,6 +8,17 @@ gem 'rails', '4.2.6'
 gem 'pg'
 #puma web server
 gem 'puma'
+#rails plugin for a database independent format 
+gem 'yaml_db'
+#debise
+gem 'devise'
+
+group :development, :test do
+gem 'foreman'
+end 
+#contact form with email
+gem 'mail_form'
+gem 'simple_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
