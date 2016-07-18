@@ -2,14 +2,16 @@
 	<h1>Gallery</h1>
 </div>
 <!--gallery-->
-			<div class="galleria">
-				<div class="container">
-					<div class="row">
-						<% @pictures.each do |p| %>
-						<div class="col-md-4 col-xs-12" >
-							<img src="<%= p.url %>"/>
-						</div>
-						<% end %>
-					</div>
-				</div>
+<div class="galleria">
+	<div class="container">
+		<div class="row">
+		<% @pictures.each do |p| %>
+			<div class="col-md-4 col-xs-12" >
+				<%= link_to picture_path(p) do %>
+					<img src="<%= p.url %>"/>
+				<% end %>
 			</div>
+		<% end %>
+		</div>
+	</div>
+</div>

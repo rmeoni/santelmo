@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/' => 'pages#home', as: :root
   get '/about' => 'pages#about'
   get '/gallery' => 'pictures#index'
+  get '/gallery/:id' => 'pictures#show', as: :picture
   get '/menu' => 'menu_categories#index'
   get "*missing" => redirect("/")
   # The priority is based upon order of creation: first created -> highest priority.
