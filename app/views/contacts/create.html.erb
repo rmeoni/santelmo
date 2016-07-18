@@ -1,0 +1,14 @@
+<div class="create" id="create">
+	<div class="container">
+	<div class="app-nav">
+			<%= link_to root_path do %>
+				<i class="material-icons">chevron_left</i>
+			<% end %>
+		</div>
+  <% flash.each do |key, value| %>
+    <div>
+       <h1> <%= value %></h1>
+    </div>
+  <% end %>
+</div>
+</div>

@@ -1,0 +1,116 @@
+// Place all the styles related to the Contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#contact {
+	height:600px;
+	background-image:url("/images/sucu.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+#contact h1 {
+  color:#fff;
+  font-size:80px;
+  text-transform: uppercase;
+  text-align:center;
+  margin-top:300px
+}
+
+/*To hide the nickname when sending a message*/
+.hidden { display: none; }
+
+.contact {
+	margin: 20px;
+	padding: 20px;
+}
+
+.contact h1 {
+	margin-bottom: 40px;
+}
+
+#form {
+	text-align: left;
+	position: relative;
+}
+
+#form h1 {
+	margin-top: 0px;
+}
+
+#form .form-horizontal input {
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+
+#form .form-horizontal .button {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+}
+
+#form textarea {
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	width: 100%;
+} 
+
+#form textarea:focus {
+	border: 1px solid #78A7D8;
+}
+
+#form input:focus {
+	border: 1px solid #78A7D8;
+}
+
+#form label {
+	display: block;
+	margin-top: 5px;
+	text-align: left;
+}
+
+
+/*flash*/
+
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+#create {
+	height: 600px;
+	background-color: #FF4081;
+
+}
+
+#create h1 {
+	color: #fff;
+}
