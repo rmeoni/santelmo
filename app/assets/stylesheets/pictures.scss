@@ -1,0 +1,48 @@
+// Place all the styles related to the Pictures controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*jumbotron*/
+
+#gallery {
+	height:600px;
+	background-image:url("../Images/gallery.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+#gallery h1 {
+  color:#fff;
+  font-size:80px;
+  text-transform: uppercase;
+  text-align:center;
+  margin-top:300px;
+  }
+
+/*gallery*/
+.galleria {  
+ padding-top:40px;
+ padding-bottom:40px;
+ background-color: #F8F8F8;
+}
+
+.galleria img {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  width: 380px;
+  height: 250px;
+
+}
+
+.galleria .col-md-4 {
+  padding-bottom:20px;
+}
+
+.fancybox img {
+  padding:0px 0px 20px 0px;
+  margin:0px;
+  }

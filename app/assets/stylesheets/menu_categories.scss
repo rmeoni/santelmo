@@ -1,0 +1,47 @@
+// Place all the styles related to the Menu_categories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*jumbotron*/
+
+#rest-menu {
+	height:600px;
+	background-image:url("/images/pizza.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+ #rest-menu h1 {
+  color:#fff;
+  font-size:80px;
+  text-transform: uppercase;
+  text-align:center;
+  padding-top:300px;
+}
+
+/*supporting*/
+.supporting-menu {
+  padding-bottom:80px;
+}
+
+.supporting-menu h2 {
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:60px;
+  font-size: 40px;
+}
+
+.supporting-menu h3 {
+  font-size:20px;
+}
+
+.supporting-menu p {
+  font-size:14px;
+}
+
+.supporting-menu .col-md-6 {
+  padding-right:60px;
+  }
