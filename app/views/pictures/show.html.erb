@@ -1,0 +1,19 @@
+<div class="photograph">
+	<div class="container">
+		<div class="app-nav">
+			<%= link_to "/gallery" do %>
+				<i class="material-icons">chevron_left</i>
+			<% end %>
+		</div>
+		<div class="photo row">
+			<div class="col-md-10 col-md-offset-1 col-xs-12" id="photo">
+				<img class="img-responsive" src="<%= @picture.url %>" >
+				<h2><%= @picture.name %></h2>
+				<p>
+				<%= link_to " Next Picture >", @picture.next, :class => "pull-right" %> 
+				<%= link_to "< Previous Picture", @picture.prev, :class => "pull-right" %>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
