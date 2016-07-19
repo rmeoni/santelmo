@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about'
   get '/gallery' => 'pictures#index'
   get '/gallery/:id' => 'pictures#show', as: :picture
-  get '/menu' => 'menu_categories#index'
   match '/contacts',     to: 'contacts#new', via: 'get'
   resources "contacts", only: [:new, :create]
   get "*missing" => redirect("/")
