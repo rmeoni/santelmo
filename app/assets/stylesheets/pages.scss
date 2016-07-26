@@ -30,7 +30,6 @@
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
-  margin-top: 40px;
 }
 
 #our-antiques {
@@ -38,6 +37,7 @@
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
+  height: 400px;
 }
 
 #our-inspiration {
@@ -45,6 +45,7 @@
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
+  height: 400px;
 }
 
 #our-friends {
@@ -52,12 +53,11 @@
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
-  margin-bottom: 40px;
+  height: 400px;
 }
 
 .supporting .row {
   padding:80px 40px 80px 40px;
-  border-bottom:1px solid #333333;
 }
 
 .img-thumbnail {
