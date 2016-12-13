@@ -289,6 +289,7 @@ text-align: center;
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 	color:#fff;
 	text-align:left;
+	font-size: 1.2em;
 }
 
 #bs-over .feature-2 .container #hotel-btn {
@@ -303,6 +304,7 @@ text-align: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	-webkit-backface-visibility: hidden;
+	text-align: right;
 }
 
 .feature-3 h1 {
@@ -310,7 +312,13 @@ text-align: center;
 	font-size:70px;
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 	color:#fff;
-	text-align:left;
+	text-align:right;
+}
+
+.feature-3 p {
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: 0px 2px 3px #000;
 }
 
 /*footer*/
