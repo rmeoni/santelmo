@@ -1,0 +1,920 @@
+/* line 5, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#contact {
+  height: 600px;
+  background-image: url("/images/sucu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+/* line 15, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#contact h1 {
+  color: #fff;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 300px;
+}
+
+/*To hide the nickname when sending a message*/
+/* line 24, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.hidden {
+  display: none;
+}
+
+/* line 26, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.contact {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* line 31, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.contact h1 {
+  margin-bottom: 40px;
+}
+
+/* line 35, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form {
+  text-align: left;
+  position: relative;
+}
+
+/* line 40, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form h1 {
+  margin-top: 0px;
+}
+
+/* line 44, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form .form-horizontal input {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #CCCCCC;
+  width: 100%;
+}
+
+/* line 51, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form .form-horizontal .button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+/* line 57, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form textarea {
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* line 63, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form textarea:focus {
+  border: 1px solid #78A7D8;
+}
+
+/* line 67, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form input:focus {
+  border: 1px solid #78A7D8;
+}
+
+/* line 71, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#form label {
+  display: block;
+  margin-top: 5px;
+  text-align: left;
+}
+
+/*flash*/
+/* line 80, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 87, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+/* line 94, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* line 101, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+/* line 108, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#create {
+  height: 600px;
+  background-color: #FF4081;
+}
+
+/* line 114, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/contacts.scss */
+#create h1 {
+  color: #fff;
+}
+/*jumbotron*/
+/* line 8, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+#rest-menu {
+  height: 600px;
+  background-image: url("/images/pizza.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+/* line 18, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+#rest-menu h1 {
+  color: #fff;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 300px;
+}
+
+/*supporting*/
+/* line 27, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+.supporting-menu {
+  padding-bottom: 80px;
+}
+
+/* line 31, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+.supporting-menu h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 40px;
+}
+
+/* line 38, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+.supporting-menu h3 {
+  font-size: 20px;
+}
+
+/* line 42, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+.supporting-menu p {
+  font-size: 14px;
+}
+
+/* line 46, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/menu_categories.scss */
+.supporting-menu .col-md-6 {
+  padding-right: 60px;
+}
+/* About CSS */
+/*jumbotron*/
+/* line 9, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#bs-over #about {
+  height: 600px;
+  background-image: url("/images/sunset.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+/* line 19, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#bs-over #about h1 {
+  color: #fff;
+  font-size: 5em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 300px;
+}
+
+/*supporting*/
+/* line 29, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#our-menu {
+  background-image: url("/images/pasta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 36, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#our-antiques {
+  background-image: url("/images/trompeta.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/* line 44, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#our-inspiration {
+  background-image: url("/images/front.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/* line 52, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#our-friends {
+  background-image: url("/images/friends.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+/* line 60, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.supporting .row {
+  padding: 80px 40px 80px 40px;
+}
+
+/* line 64, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.img-thumbnail {
+  padding: 10px;
+}
+
+/* line 68, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+#bs-over .about .supporting .container {
+  padding: 0;
+  left: 0;
+  right: 0;
+  width: 98%;
+}
+
+/* line 75, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.supporting .col-md-7 p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* line 82, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.supporting .col-md-7 h1 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* line 88, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel h1 {
+  margin: 0px;
+}
+
+/* line 92, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .jumbotron {
+  height: 600px;
+  background-image: url("/images/SAM_2147.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+/* line 102, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .jumbotron h1 {
+  color: #fff;
+  text-shadow: 0px 2px 3px #000;
+  font-size: 6em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 300px;
+}
+
+/* line 111, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature {
+  height: 600px;
+  background-image: url("/images/SAM_2036.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 120, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: right;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 20px 0px 0px;
+}
+
+/* line 129, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature-2 {
+  height: 600px;
+  background-image: url("/images/SAM_2217.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 138, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature-2 h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: left;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 0px 0px 20px;
+}
+
+/* line 147, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature-3 {
+  height: 600px;
+  background-image: url("/images/SAM_2152.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 156, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pages.scss */
+.hotel .feature-3 h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: right;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 20px 0px 0px;
+}
+/*jumbotron*/
+/* line 8, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#gallery {
+  height: 600px;
+  background-image: url("/images/gallery.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+/* line 18, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#gallery h1 {
+  color: #fff;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 300px;
+}
+
+/*gallery*/
+/* line 27, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+.galleria {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F8F8F8;
+}
+
+/* line 33, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .galleria h4 {
+  margin: 20px 0px 40px 0px;
+}
+
+/* line 37, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+.galleria img {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  height: 250px;
+}
+
+/* line 45, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+.galleria .col-md-4 {
+  padding-bottom: 20px;
+}
+
+/* photograph#show */
+/* line 51, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+.photograph {
+  background-color: #FF4081;
+  color: #fff;
+}
+
+/* line 56, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .app-nav i {
+  color: #dbdbdb;
+  font-size: 32px;
+  margin-top: 200px;
+  padding: 5px;
+  border: 2px solid #dbdbdb;
+  border-radius: 50%;
+  transition: color .3s;
+}
+
+/* line 66, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .app-nav i:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* line 71, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .app-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 76, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .photograph h2 {
+  display: inline-block;
+}
+
+/* line 80, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over .photograph p {
+  display: inline-block;
+  float: right;
+}
+
+/* line 85, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#bs-over #photo a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px 0px 40px 0px;
+}
+
+/* line 93, /Users/rodrigomanuel/SanTelmoApp/app/assets/stylesheets/pictures.scss */
+#photo {
+  margin-top: 40px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+body, html {
+	font-family:"arvo", sans-serif;
+}
+
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  overflow: scroll;
+}
+
+body:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+
+}
+/*mobile only*/
+.mobile-logo {
+	display:none;
+}
+
+.icon-menu {
+	display:none;
+}
+
+.menu {
+  color:#fff;	
+  background-color: #00897B;
+  height: 100%;
+  position: fixed;
+  width: 280px;
+  left:-280px;
+  opacity: 0.98;
+  z-index: 100;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.menu li {
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-close i {
+	font-size: 35px;
+	color: #fff;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+  background: transparent;
+  position: fixed;
+  z-index: 1000;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*header*/
+.header {
+	text-align:center;
+	background:transparent;
+	position: absolute;
+	z-index: 100;
+}
+.nav ul {
+list-style-type: none;
+text-align: center;
+}
+
+.nav li {
+	text-decoration:none;
+	color:#fff;
+	font-size:14px;
+	padding:10px;
+	display:inline-block;
+	text-transform: uppercase;
+ 	-webkit-transition:color 0.25s;
+  	transition:color 0.25s;
+}
+
+.nav li a {
+	text-decoration: none;
+	color:#fff;
+	transition: color .3s;
+}
+
+.nav li a:hover{
+	background:transparent;
+	cursor:pointer;
+	transition: color .3s;
+	-webkit-transition:color .3s;
+	color:#91BE51;
+}
+
+/*email icon*/
+
+#location {
+	background-color: #673AB7;
+    background-position: 100% left;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    color:#000;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: 25px;
+    cursor: pointer;
+    height: 66px;
+    position: fixed;
+    right: 95%;
+    width: 68px;
+    z-index: 1000;
+    box-shadow: 0 3px 4px rgba(0,0,0,.4);
+    padding-top:8px;
+    right: 30px;
+    display: none;
+
+}
+
+#bs-over .email-button i {
+	padding-left: 0px;
+	margin-left: 0px;
+	color: #fff;
+	font-size: 38px;
+	padding-left: 13px;
+}
+
+#bs-over #location a {
+	text-decoration: none;
+	color:#fff;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+
+/*jumbotron*/
+
+#home {
+	height:600px;
+	background-image:url("/images/SAM_2206.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+	z-index: -1;
+}
+
+/*supporting*/
+#supporting-home {
+	height:300px;
+	background-color:#FF4081;
+	margin:0px;
+	text-align:center;
+	color:#fff;
+	opacity: 0.9;
+}
+
+#supporting-home h1 {
+	margin:0;
+	padding:40px 0px 10px;
+	font-size:5em;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-transform: uppercase;
+
+}
+
+#supporting-home p {
+	padding-bottom:10px;
+	font-size:20px;
+}
+
+.btn {
+	border-radius:0px;
+	background-color:#fff;
+	color:#000;
+	border:2px solid #fff;
+	border-radius: 4px;
+	padding: 15px;
+	font-size: 18px;
+	transition: background-color .3s;
+	text-transform: uppercase;
+
+}
+
+.btn a {
+	text-decoration:none;
+	color:#000;
+}
+
+.btn:hover, .btn:focus {
+	background-color:#FF80AB;
+	color:#fff;
+	border: 2px solid #fff;
+}
+
+/*feature*/
+.feature-1 {
+	height:700px;
+	background-image:url("/images/SAM_2181.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
+}
+.feature-1 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+}
+
+.feature-2 {
+	height:700px;
+	background-image:url("/images/SAM_2152.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
+}
+
+.feature-2 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+}
+
+.feature-2 p {
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+	font-size: 1.2em;
+}
+
+#bs-over .feature-2 .container #hotel-btn {
+	text-align:left;
+}
+
+.feature-3 {
+	height:700px;
+	background-image:url("/images/SAM_2079.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	-webkit-backface-visibility: hidden;
+	text-align: right;
+}
+
+.feature-3 h1 {
+	padding:150px 0px 10px;
+	font-size:70px;
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:right;
+}
+
+.feature-3 p {
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: 0px 2px 3px #000;
+}
+
+/*footer*/
+.footer {
+	background-color:#00897B;
+	height:300px;
+	color:#fff;
+	padding:30px;
+}
+
+.footer .material-icons {
+	font-size: 38px;
+	border: 2px solid #fff;
+	border-radius: 50%; 
+}
+
+#up {
+	text-align: center;
+}
+
+.footer .col-md-4 {
+	text-align: center;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left:0;
+}
+
+.footer li {
+	color:#fff;
+	display:inline;
+	padding:10px;
+}
+
+.footer li a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer li i:hover {
+	color:#FF4081;
+	border-color: #FF4081;
+}
+
+.footer h6 {
+	text-align:center;
+	color: #fff;
+	padding:35px;
+	font-size:14px;
+	text-decoration: none;
+}
+
+.footer h6 span {
+	border-bottom:1px solid #fff;
+	color: #fff;
+}
+
+.footer h6 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+
+.header li {
+	display:none;
+}
+
+.header a {
+	text-align: center;
+	position: center;
+}
+
+.icon-menu {
+	display:inline;
+	line-height:3px;
+}
+
+#bs-over .mobile-logo {
+	display:inline;
+	position: center;
+	padding:1px;
+	margin-top: 20%;
+	margin-left: 100px;
+}
+
+#location {
+	display: inline;
+}
+
+#supporting-home {
+	height: 220px;
+}
+
+#bs-over .supporting h1 {
+	font-size: 2.5em;
+}
+
+.jumbotron, .feature-1, .feature-2, .feature-3, .feature-4, #home, #our-friends, #our-antiques, #our-menu, #our-inspiration  {
+	background-attachment: scroll;
+}
+
+.btn {
+	font-size: 1.1em;
+	padding: 10px;
+}
+
+.jumbotron h1 {
+	font-size: 4.5em;
+}
+
+#gallery h1 {
+	font-size: 4.5em;
+}
+
+#contact h1 {
+	font-size: 4.5em;
+}
+
+.galleria img {
+	width: 100%;
+	height: 75%;
+}
+
+.footer {
+	height:350px;
+}
+
+.footer h3 {
+	font-size:1.5em;
+}
+.footer p, .footer a {
+	font-size:12px;
+}
+
+.footer li {
+	display:inline-block;
+	padding:5px;
+	}
+}
