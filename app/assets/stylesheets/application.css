@@ -147,11 +147,51 @@ text-align: center;
 	color:#91BE51;
 }
 
+/*email icon*/
+
+#location {
+	background-color: #673AB7;
+    background-position: 100% left;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    color:#000;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: 25px;
+    cursor: pointer;
+    height: 66px;
+    position: fixed;
+    right: 95%;
+    width: 68px;
+    z-index: 1000;
+    box-shadow: 0 3px 4px rgba(0,0,0,.4);
+    padding-top:8px;
+    right: 30px;
+    display: none;
+
+}
+
+#bs-over .email-button i {
+	padding-left: 0px;
+	margin-left: 0px;
+	color: #fff;
+	font-size: 38px;
+	padding-left: 13px;
+}
+
+#bs-over #location a {
+	text-decoration: none;
+	color:#fff;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+
 /*jumbotron*/
 
 #home {
 	height:600px;
-	background-image:url("/images/inspiration.jpg");
+	background-image:url("/images/SAM_2206.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -167,14 +207,16 @@ text-align: center;
 	margin:0px;
 	text-align:center;
 	color:#fff;
+	opacity: 0.9;
 }
 
 #supporting-home h1 {
 	margin:0;
 	padding:40px 0px 10px;
-	font-size:80px;
+	font-size:5em;
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 	color:#fff;
+	text-transform: uppercase;
 
 }
 
@@ -192,6 +234,7 @@ text-align: center;
 	padding: 15px;
 	font-size: 18px;
 	transition: background-color .3s;
+	text-transform: uppercase;
 
 }
 
@@ -208,8 +251,8 @@ text-align: center;
 
 /*feature*/
 .feature-1 {
-	height:600px;
-	background-image:url("/images/canoe.jpg");
+	height:700px;
+	background-image:url("/images/SAM_2181.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -225,8 +268,8 @@ text-align: center;
 }
 
 .feature-2 {
-	height:600px;
-	background-image:url("/images/sala.jpg");
+	height:700px;
+	background-image:url("/images/SAM_2152.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -239,12 +282,22 @@ text-align: center;
 	font-size:70px;
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 	color:#fff;
-	text-align:right;
+	text-align:left;
+}
+
+.feature-2 p {
+	text-shadow:0 2px 3px rgba(0,0,0,.4);
+	color:#fff;
+	text-align:left;
+}
+
+#bs-over .feature-2 .container #hotel-btn {
+	text-align:left;
 }
 
 .feature-3 {
-	height:600px;
-	background-image:url("/images/roof.jpg");
+	height:700px;
+	background-image:url("/images/SAM_2079.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -258,25 +311,6 @@ text-align: center;
 	text-shadow:0 2px 3px rgba(0,0,0,.4);
 	color:#fff;
 	text-align:left;
-}
-
-.feature-4 {
-	height:600px;
-	background-image:url("/images/sunset.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	-webkit-backface-visibility: hidden;
-
-}
-
-.feature-4 h1 {
-	padding:150px 0px 10px;
-	font-size:70px;
-	text-shadow:0 2px 3px rgba(0,0,0,.4);
-	color:#fff;
-	text-align:right;
 }
 
 /*footer*/
@@ -362,6 +396,10 @@ text-align: center;
 	padding:1px;
 	margin-top: 20%;
 	margin-left: 100px;
+}
+
+#location {
+	display: inline;
 }
 
 #supporting-home {

@@ -5,9 +5,9 @@
 /* About CSS */
 /*jumbotron*/
 
-#about {
+#bs-over #about {
 	height:600px;
-	background-image:url("/images/llantas.jpg");
+  background-image: url("/images/sunset.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@
 
 #bs-over #about h1 {
   color:#fff;
-  font-size:80px;
+  font-size:5em;
   text-transform: uppercase;
   text-align:center;
   margin-top:300px;
@@ -82,5 +82,81 @@
   font-size: 48px;
   color: #fff;
   text-shadow:0 3px 4px rgba(0,0,0,.4);
+}
 
+.hotel h1 {
+  margin: 0px;
+}
+
+.hotel .jumbotron {
+  height: 600px;
+  background-image: url("/images/SAM_2147.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.hotel .jumbotron h1 {
+  color:#fff;
+  text-shadow: 0px 2px 3px #000;
+  font-size:6em;
+  text-transform: uppercase;
+  text-align:center;
+  margin-top:300px;
+}
+
+.hotel .feature {
+  height: 600px;
+  background-image: url("/images/SAM_2036.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hotel .feature h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: right;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 20px 0px 0px;
+}
+
+.hotel .feature-2 {
+  height: 600px;
+  background-image: url("/images/SAM_2217.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+.hotel .feature-2 h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: left;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 0px 0px 20px; 
+}
+
+.hotel .feature-3 {
+  height: 600px;
+  background-image: url("/images/SAM_2152.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+.hotel .feature-3 h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: right;
+  text-shadow: 0px 2px 3px #000;
+  padding: 250px 20px 0px 0px;
 }
