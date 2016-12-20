@@ -267,6 +267,12 @@ text-align: center;
 	text-align:left;
 }
 
+.feature-1 p {
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: 0px 2px 3px #000;
+}
+
 .feature-2 {
 	height:700px;
 	background-image:url("/images/SAM_2152.jpg");
@@ -324,13 +330,12 @@ text-align: center;
 /*footer*/
 .footer {
 	background-color:#00897B;
-	height:300px;
 	color:#fff;
 	padding:30px;
 }
 
 .footer .material-icons {
-	font-size: 38px;
+	font-size: 48px;
 	border: 2px solid #fff;
 	border-radius: 50%; 
 }
@@ -346,6 +351,7 @@ text-align: center;
 .footer ul {
 	list-style-type: none;
 	padding-left:0;
+	padding-bottom: 20px;
 }
 
 .footer li {
@@ -445,7 +451,7 @@ text-align: center;
 }
 
 .footer {
-	height:350px;
+	height:420px;
 }
 
 .footer h3 {
