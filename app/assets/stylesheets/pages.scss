@@ -160,3 +160,28 @@
   text-shadow: 0px 2px 3px #000;
   padding: 250px 20px 0px 0px;
 }
+
+.happy .jumbotron {
+  height: 800px;
+  background-image: url("/images/SAM_2517.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.happy h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 0px 2px 3px #000;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.happy h3 {
+  text-align: center;
+  font-size: 3em;
+  color: #FF518C;
+  text-shadow: 0px 2px 3px #000;
+}
