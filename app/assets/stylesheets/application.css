@@ -117,6 +117,11 @@ body:before {
 	position: absolute;
 	z-index: 100;
 }
+
+.nav {
+	margin-left: 10%;
+}
+
 .nav ul {
 list-style-type: none;
 text-align: center;
@@ -276,7 +281,7 @@ text-align: center;
 
 .feature-2 {
 	height:700px;
-	background-image:url("/images/SAM_2152.jpg");
+	background-image:url("/images/pizza.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
