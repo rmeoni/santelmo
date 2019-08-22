@@ -186,7 +186,7 @@ DEPENDENCIES
   jquery-rails
   pg (~> 0.21)
   puma (>= 3.4.0)
-  rails (~> 5.0.2)
+  rails
   sass-rails (~> 5.0)
   sassc
   sdoc (~> 0.4.0)
