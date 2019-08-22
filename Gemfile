@@ -3,11 +3,11 @@ ruby "2.5.0"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '~> 5.0.2'
 # Use postgres for production
-gem 'pg'
+gem 'pg', '~> 0.21'
 #puma web server
-gem 'puma'
+gem 'puma', '>= 3.4.0'
 #rails plugin for a database independent format 
 gem 'yaml_db'
 #debise
@@ -16,11 +16,9 @@ gem 'devise'
 group :development, :test do
 gem 'foreman'
 end 
-#contact form with email
-gem 'mail_form'
-gem 'simple_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'sassc'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
